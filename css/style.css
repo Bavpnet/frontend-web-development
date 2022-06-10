@@ -109,8 +109,13 @@ transform: translateX(-50%); /* center */
 }
 
 .project-links * {
+    list-style-type: none;
     text-decoration: none;
     text-align: center;
     padding: 14px 16px;
     color: #FFF;
+}
+
+.project-links li a:hover{
+    font-weight: bold;
 }
